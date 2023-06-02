@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="HOME"
+        android:visible="true"
+        app:showAsAction="always|withText"></item>
+
+
+    <item
+        android:id="@+id/gallery"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="GALLERY"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+
+    <item
+        android:id="@+id/about"
+        android:enabled="true"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="ABOUT"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+
+    <item
+        android:id="@+id/slideshow"
+        android:title="SLIDESHOW">
+    </item>
+
+</menu>
